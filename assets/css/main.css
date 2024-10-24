@@ -65,6 +65,65 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/* Styling for Icons List */
+.icons a {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; /* Removes focus highlight on mobile */
+}
+
+/* Remove dotted line or border around icons */
+.icons a:focus {
+  outline: none;
+}
+
+/* Icon-specific styles (optional) */
+.icons span {
+  display: inline-block;
+  border: none;
+  padding: 10px;
+  transition: transform 0.2s; /* Add hover effect */
+}
+
+/* Hover effect for icons */
+.icons a:hover span {
+  transform: scale(1.2);
+  color: #4caf50;
+}
+
+/* Additional Layout Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7f9;
+  text-align: center;
+}
+
+header.major h2 {
+  font-size: 28px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+header.major p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.icons.major {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.icons li {
+  display: inline-block;
+}
+
 
 /* Basic */
 
