@@ -1,41 +1,27 @@
-Mohit Baghel
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+MohitBaghel.site
 
+Website: http://mohitbaghel.site  
+Author: Mohit Baghel
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+Description:
+MohitBaghel.site is the personal portfolio website of Mohit Baghel, serving as a comprehensive platform to showcase his expertise, creative work, and professional accomplishments. The site features an extensive collection of original photography, technical projects, and coding work, as well as a detailed resume outlining his knowledge and experience.
 
-- It's built with components from my Responsive Tools project.
+This portfolio aims to provide visitors with an in-depth understanding of Mohit's diverse skill set, including his proficiency in web development, coding, and creative design. All displayed works are organized into categories for easy navigation, whether users are exploring his visual art, programming projects, or professional qualifications.
 
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
+Features:
+- **Photography Portfolio**: A curated collection of original photographs, capturing various themes and styles, all licensed under custom terms.
+- **Coding Projects**: A section dedicated to showcasing Mohit’s coding skills, featuring a variety of personal and professional web development projects. This includes examples of his work, programming languages used, and solutions developed.
+- **Resume**: A detailed resume is available, outlining Mohit’s qualifications, education, and professional experience in web development, coding, and photography.
+- **Knowledge Sharing**: Visitors can explore various sections where Mohit shares his knowledge, tutorials, and tips on coding, web design, and more. This includes a "What to Do" section that offers guidance on tackling common coding challenges and best practices for web development.
+- **Join Me**: A dedicated section for collaborations and professional connections, allowing users to reach out for inquiries about projects or partnerships.
 
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on.
+Technologies Used:
+- HTML5, CSS3, JavaScript for the structure and style of the website.
+- Responsive Frontend: Optimized for seamless browsing across all devices, ensuring a user-friendly experience.
+- Backend: Future updates will introduce advanced features such as user login, image uploads, coding project submission, and content management.
 
-  (* = still entirely optional if you prefer vanilla CSS :)
+License:
+All images, code, and content on this website are the intellectual property of Mohit Baghel. Any unauthorized use, reproduction, or distribution of these materials is strictly prohibited without prior written consent. For licensing inquiries or permission to use any content, please visit the contact section of the site.
 
-- A ton of other stuff.
-
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/mohit/jquery.scrollex)
-		Responsive Tools (github.com/mohit/responsive-tools)
+Contact Information:
+For further information, professional collaboration, or licensing requests, please visit the 'Join Me' section on the website or use the contact form available on the site.
