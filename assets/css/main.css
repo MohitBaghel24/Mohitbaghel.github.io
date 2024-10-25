@@ -72,6 +72,21 @@ input, select, textarea {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; /* Removes focus highlight on mobile */
 }
+.icon-container {
+  display: flex;
+  justify-content: center; /* Aligns icons in the center horizontally */
+  align-items: center; /* Aligns icons in the center vertically */
+  gap: 20px; /* Adds spacing between the icons */
+  padding: 20px; /* Optional padding for spacing around the frame */
+}
+
+.icon {
+  font-size: 24px; /* Adjust size of the icons */
+}
+
+.icon i {
+  color: #333; /* Change the color of the icons */
+}
 
 /* Remove dotted line or border around icons */
 .icons a:focus {
