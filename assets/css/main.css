@@ -97,7 +97,7 @@ input, select, textarea {
 .icons span {
   display: inline-block;
   border: none;
-  padding: 10px;
+  padding: 8px;
   transition: transform 0.2s; /* Add hover effect */
 }
 
