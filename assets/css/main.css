@@ -87,16 +87,13 @@ input, select, textarea {
 .icon {
   font-size: 48px; /* Adjust size of the icons */
   color: #333; /* Change the color of the icons */
-  position: absolute; /* Allows precise positioning */
-  top: 50%; /* Move to the vertical center */
-  left: 50%; /* Move to the horizontal center */
-  transform: translate(-50%, -50%); /* Perfectly aligns icon in the center */
+  position: relative; /* No need for absolute if you don't want movement */
 }
 
 /* Hover effect for icons */
 .icons a:hover .icon {
-  transform: translate(-50%, -50%) scale(1.2); /* Add scale effect on hover */
-  color: #4caf50;
+  color: #4caf50; /* Only change the color on hover, no movement */
+  transform: none; /* Prevents any movement or scaling */
 }
 
 /* Additional Layout Styling */
