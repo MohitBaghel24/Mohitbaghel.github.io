@@ -77,8 +77,8 @@ input, select, textarea {
   justify-content: center; /* Align icons horizontally */
   align-items: center; /* Align icons vertically */
   flex-direction: column; /* Aligns elements vertically inside container, if needed */
-  width: 70px; /* Adjust the width of each icon frame */
-  height: 70px; /* Adjust the height of each icon frame */
+  width: 60px; /* Adjust the width of each icon frame */
+  height: 60px; /* Adjust the height of each icon frame */
   margin: auto; /* Centers the frame within a parent element */
   position: relative; /* Ensures absolute centering works within this frame */
 }
@@ -114,7 +114,7 @@ header.major h2 {
 header.major p {
   color: #fff;
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .icons.major {
@@ -122,7 +122,7 @@ header.major p {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 28px;
   margin-top: 20px;
 }
 
