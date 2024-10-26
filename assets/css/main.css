@@ -87,8 +87,8 @@ input, select, textarea {
   font-size: 38px; /* Adjust size of the icons */
   color: #333; /* Change the color of the icons */
   position: absolute; /* Allows precise positioning */
-  top: 50%; /* Move to the vertical center */
-  left: 50%; /* Move to the horizontal center */
+  top: 30%; /* Move to the vertical center */
+  left: 30%; /* Move to the horizontal center */
   transform: translate(-50%, -50%); /* Perfectly aligns icon in the center */
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 header.major h2 {
-  font-size: 28px;
+  font-size: 18px;
   color: #fff;
   margin-top: 20px;
 }
