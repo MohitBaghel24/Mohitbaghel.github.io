@@ -84,7 +84,7 @@ input, select, textarea {
 }
 
 .icon {
-  font-size: 48px; /* Adjust size of the icons */
+  font-size: 38px; /* Adjust size of the icons */
   color: #333; /* Change the color of the icons */
   position: absolute; /* Allows precise positioning */
   top: 50%; /* Move to the vertical center */
