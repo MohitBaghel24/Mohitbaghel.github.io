@@ -64,72 +64,92 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}/* Styling for Icons List */
-.icons a {
-  border: none;
-  outline: none;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent; /* Removes focus highlight on mobile */
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Prevents elements from overflowing their container */
 }
 
-.icon-container {
+/* Styling for Icons List */
+.icons {
   display: flex;
-  justify-content: center; /* Align icons horizontally */
-  align-items: center; /* Align icons vertically */
-  flex-direction: column; /* Aligns elements vertically inside container, if needed */
-  width: 60px; /* Adjust the width of each icon frame */
-  height: 60px; /* Adjust the height of each icon frame */
-  margin: auto; /* Centers the frame within a parent element */
-  position: relative; /* Ensures absolute centering works within this frame */
+  justify-content: center; /* Align horizontally */
+  align-items: center; /* Align vertically */
+  gap: 40px; /* Adjust the spacing between icons */
+  margin-top: 20px;
+  list-style: none;
+}
+
+.icons li {
+  display: flex;
+  flex-direction: column; /* Icons stay centered with any text below */
+  align-items: center;
 }
 
 .icon {
-  font-size: 38px; /* Adjust size of the icons */
-  color: #333; /* Change the color of the icons */
-  position: absolute; /* Allows precise positioning */
-  top: 30%; /* Move to the vertical center */
-  left: 30%; /* Move to the horizontal center */
-  transform: translate(-50%, -50%); /* Perfectly aligns icon in the center */
+  font-size: 32px; /* Adjust icon size */
+  color: #333; /* Icon color */
+  transition: transform 0.2s; /* Smooth hover effect */
 }
 
-/* Hover effect for icons */
-.icons a:hover .icon {
-  transform: translate(-50%, -50%) scale(1.2); /* Add scale effect on hover */
+/* Optional Hover Effect */
+.icons li:hover .icon {
   color: #4caf50;
+  transform: scale(1.1); /* Slight scaling */
 }
 
-/* Additional Layout Styling */
+/* Adjust Icon Labels (Optional) */
+.icons li span {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Layout Styling for Text */
+header.major h2 {
+  font-size: 28px;
+  color: #fff;
+  margin: 20px 0;
+  text-align: center;
+}
+
+header.major p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  max-width: 80%; /* Limit text width */
+  margin: 0 auto 30px; /* Center text with margin */
+}
+
+/* Page Layout */
 body {
   font-family: Arial, sans-serif;
   background-color: #e0f7f9;
   text-align: center;
 }
 
-header.major h2 {
-  font-size: 18px;
-  color: #fff;
-  margin-top: 20px;
+/* Control Section Sizing */
+section {
+  padding: 40px 0;
+  width: 100%;
 }
 
-header.major p {
-  color: #fff;
-  font-size: 16px;
-  margin-bottom: 20px;
-}
+/* Ensure Consistency Across Viewports */
+@media (min-width: 768px) {
+  .icons {
+    gap: 60px; /* Increase gap for larger screens */
+  }
 
-.icons.major {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 28px;
-  margin-top: 20px;
-}
+  header.major h2 {
+    font-size: 32px;
+  }
 
-.icons li {
-  display: inline-block;
+  header.major p {
+    font-size: 18px;
+  }
 }
-
 
 /* Basic */
 
