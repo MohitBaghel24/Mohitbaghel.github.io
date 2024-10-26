@@ -140,7 +140,8 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			 color: #3498db;  /* Changes text color on hover */
+
 		}
 
 	strong, b {
